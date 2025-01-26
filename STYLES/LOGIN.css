@@ -1,0 +1,147 @@
+p {
+    margin: 0;
+
+    font-family: Roboto, Arial;
+}
+
+body {
+    margin: 0;
+
+    background-color: orange;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.form {
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 50%;
+
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+
+    border-radius: 2px;
+
+    min-width: 341.5px;
+    min-height: 320px;
+}
+
+.title-section {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+    padding-top: 30px;
+
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.page-title {
+    font-size: 35px;
+    font-weight: bold;
+
+    margin-bottom: 4px;
+}
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 20px;
+}
+
+.username-input,
+.password-input {
+    border: none;
+    border-bottom: 2px solid orange;
+
+    font-size: 14px;
+
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 5px;
+    width: 100%;
+}
+
+.username-input:focus,
+.password-input:focus {
+    outline: none;
+}
+
+.username-input::placeholder,
+.password-input::placeholder {
+    color: gray;
+}
+
+.username-input {
+    margin-bottom: 18px;
+}
+
+.forgot-password {
+    font-family: Roboto, Arial;
+    font-size: 13px;
+    color: gray;
+
+    margin-left: 5px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.login-button {
+    background-color: orange;
+    color: white;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 10px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+
+    cursor: pointer;
+
+    transition: opacity 0.15s;
+}
+
+.login-button:hover {
+    opacity: 0.8;
+}
+
+.login-button:active {
+    opacity: 0.6;
+}
+
+.no-account {
+    font-size: 14px;
+}
+
+.signup-page-link {
+    color: blue;
+
+    cursor: pointer;
+}
+
+.signup-page-link:hover {
+    text-decoration: underline;
+}
